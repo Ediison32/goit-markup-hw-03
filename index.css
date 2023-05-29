@@ -1,0 +1,51 @@
+
+    .listEncabezado{
+        list-style: none;
+    }      
+
+    .equipo{
+        width: 1600px;
+        height: 640px;
+       /*  justify-self: unset; */
+    }
+
+    .equipo-2{
+        width: 1177px;
+        height: 368px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .equipo-3{
+        width: 270px;
+        height: 368px;
+    }
+
+    .equipoImg{
+        width:270px;
+        height: 260px;
+    }
+
+    .dedicamos{
+        width: 1180.16px;
+        height: 429.7;
+        /* display: grid; */
+        
+   
+    }
+
+    .dedicamos1{
+        width: 373.16px;
+        height: 323.7px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .dedicamosImg{
+        width: 373.16px;
+        height: 323.7px;
+    }
+
+    .titulosH2{
+        display: flex;
+        justify-content: center;
+    }
