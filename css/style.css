@@ -37,23 +37,26 @@
     margin-left: 253px;
     margin-right: 243px;
     padding: 0;
+    position: relative;
 }
 
 .encabezado-lista ul li:nth-child(4){
     margin-right: 238px;
 }
 
+
+
 .encabezado-img-telefono {
     position: absolute;
-    top: 40px;
-    left: 1220px;
+    top: 15px;
+    left: 960px;
 }
 
 .encabezado-img-correo {
         
     position: absolute;
-    top: 43px;
-    left: 943px;
+    top: 19px;
+    left: 681px;
 }
 /* 
 
