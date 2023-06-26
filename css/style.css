@@ -333,9 +333,12 @@ a {
 }
 
 .portafolio-container{
-    justify-content: center;
+    /* justify-content: center;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 } 
 
 
@@ -347,20 +350,27 @@ a {
     font-size: 16px;
     font-weight: 500;
     padding: 0;
-    margin: 25.5px 0 24.5px; 
+    margin: 25.5px 0 24.5px;  
    /*  padding: 0 0px  0 200px; */
     width: 100%;
     cursor: pointer;
 }
+
+.encabezado-portafolio li:first-child{
+    padding-right: 93px;
+}
+.encabezado-portafolio li:nth-child(n+2){
+    padding-right: 50px;
+}
 .encabezado-portafolio2{
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
     font-size: 16px;
     font-weight: 500;
     margin: 24.5px 0 24.5px; 
-    padding: 0px 0px 0 200px;
-    position: relative;
+   /*  padding: 0px 0px 0 200px; */
+ /*    position: relative; */
     /* para la imagen celular y gmail */
     width: 100%;
     cursor: pointer;
@@ -370,17 +380,21 @@ a {
     color: #757575;
 }
 
-.encabezado-img-correo {
+.encabezado-portafolio2 li:first-child{
+    padding-right: 50px;
+}
+
+/* .encabezado-img-correo {
 
     position: absolute;
     top: 9px;
     left: 203px;
-}
-.encabezado-img-telefono {
+} */
+/* .encabezado-img-telefono {
     position: absolute;
     top: 6px;
     left: 450px;
-}
+} */
 
 
 
@@ -433,6 +447,10 @@ a {
     border-radius: 30px;
 }
 
+.portafolio-listas li:hover{
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+
 .portafolio-img{
     width: 370px;
 
@@ -458,6 +476,7 @@ a {
 .portafolio-listas div{
     cursor: pointer;
     margin-bottom: 20px;
+    
 }
 
 
