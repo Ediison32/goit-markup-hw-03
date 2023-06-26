@@ -68,7 +68,8 @@ a {
 
 
 
-.cambio-color:hover {
+.cambio-color:hover,
+.cambio-color:focus {
     color:#2196F3;
 }
 
@@ -98,7 +99,8 @@ a {
     object-fit: cover; /* mejora calidad imagen  */
 }
 
-.dedicamos-img:hover{
+.dedicamos-img:hover,
+.dedicamos-img:focus{
     width: 500px;
     height: 500px;
 }
@@ -268,33 +270,39 @@ a {
 
 
 .foter-info{
-    width: 1600px;
+    /* width: 100%; */
     /* height: 252px; */
     background-color: #2F303A;
-    /* display: flex; */
-    height: 252px;
+     display: flex; 
+    /* height: 252px; */
     font-family: 'Roboto',sans-serif;
     align-items: flex-start;
     /* flex-direction: column;
     justify-content: center;  */
     position: relative;
+    margin: 0;
     
 }
 
 
 .foter-titulo{
     padding: 0;
-    margin: 60px 215px 9px;
+    /* margin: 60px 215px 9px; */
     width: 145px;
+    margin: 0;
+    padding-top: 60px;
 }
 
 
 
 .addres-info{
-    padding: 0;
+    padding-bottom: 47px;
     width: 238px;
-    height: 92px;
-    margin: 0 215px 60px;
+   /*  height: 92px; */
+   /*  margin: 0 215px 60px; */
+    margin: 0;
+    padding: 0 0 47px;
+
 
 } 
 .addres-info a{
@@ -315,17 +323,13 @@ a {
     
     background-color: #FFFFFF;
 }
-#body-portafolio header{
-
-    
+#body-portafolio header{    
     border-bottom: 1px solid #EEEEEE;
-   
-   
+
 }
 
 .container{
     width: 1200px;
-
 }
 
 .portafolio-container{
@@ -405,7 +409,8 @@ a {
    
     
 }
-.portafolio-button button:hover{
+.portafolio-button button:hover,
+.portafolio-button button:focus{
     background-color: #2196F3;
     color: #FFFFFF;
 }
@@ -457,7 +462,7 @@ a {
 
 
 
-.redes-sociales li:nth-child(n+1) {
+.redes-sociales li/* :nth-child(n+2) */ {
     width: 40px;
     height: 40px;
     background-color: rgba(255, 255, 255, 0.1);
@@ -470,31 +475,40 @@ a {
 }
 
 .title-redes-sociales {
-    position: absolute;
+    /* position: absolute;
     left: 621px;
     top: 74px;
+    */
+    padding: 75px 0 0 60px;
+    margin: 0;
     color: #FFFFFF;
     font-weight: 700;
     font-size: 14px;
+    
 }
 
 
 
-.redes-sociales li:nth-child(n+1):hover {
+.redes-sociales li/* nth-child(n+2) */:hover{
     background-color: #2196F3;
     width: 80px;
     height: 80px;
 }
 
 .redes-sociales {
-    display: flex;
+/*     display: flex;
     position: absolute;
     left: 611px;
     top: 116px;
     gap: 15px;
     padding: 0;
-    margin: 10px;
+    margin: 10px; */
+    display: flex;
+    padding: 0 0 0 60px;
+    gap: 10px;
 }
 
-
+.redes-sociales:focus{
+    background-color: #2196F3;
+}
 
