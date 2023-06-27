@@ -49,7 +49,7 @@ a {
 }
 
 .dedicamos {
-    width: 1173.16px;
+    /* width: 1173.16px; */
     /* height: 425; */
     
     font-family: 'Roboto', sans-serif;
@@ -216,7 +216,7 @@ a {
 
 /* section  */
 
-.section-main{
+.container-main{
     
     /* width: 1600px; */
     height: 600px;
@@ -227,7 +227,7 @@ a {
     justify-content: center;
 }
 
-.section-main h1{
+.container-main h1{
     font-weight: 900;
     font-family: 'Roboto', sans-serif;
     font-size: 44px;
@@ -236,7 +236,7 @@ a {
     text-align: center;
 }
 
-.section-main button{
+.container-main button{
     font-size: 16px;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
@@ -259,7 +259,7 @@ a {
     align-items: flex-start;
     /* flex-direction: column;
     justify-content: center;  */
-    position: relative;
+   /*  position: relative; */
     margin: 0;
     
 }
@@ -316,7 +316,7 @@ a {
     width: 1200px;
 }
 
-.portafolio-container{
+.portafolio-container div{
     /* justify-content: center;
     display: grid;
     grid-template-columns: 1fr 1fr; */
